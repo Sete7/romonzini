@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/11/2018, 21:52:54
+    Author     : junio
+*/
+*{
+    margin: 0;padding: 0;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-o-box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{width: 100%;float: left;}
+.content{width: 97%;margin: 0 1.5%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+img{width: 100%;}
+
+.main-nav{width: 100%;float: left;padding: 2em;}
+.main-nav a{float: right;font-size: 1.5em;color: #000;font-weight: bold;}
+.main-logo{width: 100%;text-align: center;margin: 0.5em 0;}
+.main-logo h1{width: 100%;float: right;font-size: 3em;color: #000;font-weight: bold;text-align: center;}
+.desc-desconto{width: 100%;float: left;margin: 2em 0;padding: 0 2em;}
+.desc-desconto p{font-size: 2em;font-weight: bold;}
+.main-btn{width: 100%;float: left;padding: 1em 0;}
+.main-btn .btn-face{width: 100%;height: 60px;line-height: 60px;background: #026;color: #fff;font-size: 1.1em;float: left;text-align: center;margin-bottom: 0.5em;}
+.main-btn .btn-crie{width: 100%;height: 60px;line-height: 60px;background: #000;color: #fff;font-size: 1.1em;float: left;text-align: center;margin-bottom: 0.5em;}
+.btn-cadastro{width: 100%;float: left;padding: 1em 0;text-align: center;}
+.btn-cadastro p{color: #000;font-size: 1.5em;}
+.btn-cadastro p strong{color: #000;}
+/*------------CONTA-------------------*/
+.main-title-topo{width: 100%;float: left;height: 80px;border-bottom: 1px solid rgba(0,0,0,0.4);padding-left: 1em;box-shadow: 2px 0 0 2px rgba(0,0,0,0.3);}
+.main-title-topo a{line-height: 80px;color: #000;font-size: 1.7em;font-weight: bold;}
+.main-title-topo a .fa-arrow-left{margin-right: 0.5em;font-weight: 300;}
+.main-form-cadastro{width: 100%;float: left;}
+.form-cadastro{width: 100%;float: left;position: relative;padding: 0.5em 0;}
+.form-cadastro input{width: 100%;height: 60px;border-top: 0;border-left: 0;
+                    border-right: 0;border-bottom: 1px solid #ccc;float: left;
+                    font-size: 1.5em;color: #666;
+}
+.form-cadastro span{font-size: 1.1em;color: #000;margin: 0.7em 0;float: left;}
+.form-cadastro .box-btn-sexo{width: 100%;float: left;padding: 0.5em;}
+.form-cadastro .box-btn-sexo button{width: 45%;height: 60px;}
+.form-cadastro .box-convite {width: 100%;float: left;padding: 0.5em;position: relative;}
+.form-cadastro .box-convite span{float: left;}
+.form-cadastro .box-convite .btn-on{ width: 60px;height: 40px;float: right;right: 35px;position: relative;}
+.form-cadastro .box-criar-conta{width: 100%;float: left;padding: 0.5em;position: relative;}
+.form-cadastro .box-criar-conta .btncadastrar{background: #000;border: 1px solid #000;color: #fff;}
+.form-cadastro .btncheckbox{width: 30px; float: left; border: 1px solid #000; position: relative;}
+.form-cadastro .desc-check{position: relative;left: 35px;top: -50px;}
+/*----------------------- ENTRAR -----------------------------*/
+.main-form-entrar{width: 100%; padding: 2em 0;float: left;}
+.main-senha{width: 100%;float: left;}
+.main-senha .esqueceu{font-size: 1.5em;color: #000; float: right;position: relative;margin: 1em 0;text-decoration: underline;}
+.ou{width: 100%;float: left;margin: 1em 0;position: relative;text-align: center;}
+.ou .after-left:after{content: "";width: 25%; height: 3px;background: #000;position: absolute;left: 0;}
+.ou .after-right:after{content: "";width: 25%; height: 3px;background: #000;position: absolute;right: 0;top: 18px;}
+.ou  p{font-size: 2em;}
+/*----------------------- HOME -----------------------------*/
+.home-logo{width: 100%;height: 60px;float: left;text-align: center;border-bottom: 1px solid rgba(0,0,0,0.4);box-shadow: 2px 0 0 2px rgba(0,0,0,0.3);}
+.home-logo h1{font-size: 2.5em;font-weight: bold;line-height: 60px;}
+.bx-home{width: 100%;float: left;}
+.bx-home img{ background-size: cover;background-repeat: no-repeat;background-position: center center;float: left;}    
+.nav{width: 100%;height: 60px;float: left;margin-bottom: 1px;}
+.menu{position: relative;width: 360px;margin: auto;}
+.menu li{float: left;padding: 0 0.4em;}
+.menu li a{color: #333;line-height: 60px; font-size: 1em;font-weight: bold;}
+.menu .active{border-bottom: 2px solid rgba(217,158,152,1);line-height: 60px;}
+.menu .active-a{color: rgba(217,158,152,1);}
+.menu li a:nth-child(1){padding-left: 0; }
+.menu li:nth-child(1){padding-left: 0; }
+.menu li a:nth-child(4){padding-right: 0; }
+.menu li:nth-child(4){padding-right: 0; }
+.bx-thumb-banner{width: 100%;float: left;padding: 3em 0;}
+.bx-thumb-banner h1{font-size: 1.5em;text-align: center;width: 100%;margin-bottom: 1em;}
+.bx-banner a{width: 100%;float: left;}
+/*-------------------- PRODUTO ---------------------*/
+.bx-produto{width: 100%;float: left;}
+.titulo-produto{width: 100%;float: left;}
+.titulo-produto h1{font-size: 1.4em;font-weight: normal; color: #999; width: 100%;float: left;}
+/*--------------- footer-----------------------*/
+.bx-footer{width: 100%;float: left;border-top: 2px solid #ddd;border-bottom: 2px solid #ddd;padding: 1em 0;margin-top: 2em;}
+.bx-footer ul{width: 100%;float: left; position: relative;}
+.bx-footer ul li{width: 50%;float: left; position: relative;padding-left: 1em;}
+.bx-footer ul li a{color: #666;}
+.bx-footer ul li:nth-child(1){border-right: 1px solid #333;}
+.bx-footer ul li:nth-child(3){border-right: 1px solid #333;}
+.bx-copy{width: 100%;float: left;padding: 1em 0;}
+.copy p{color: #666;text-align: center;}
+/*------------------MARCA--------------------------*/
+.titulo-marca{width: 100%;float: left;border-bottom: 1px solid #333;padding: 0.5em 0 1em 0;box-shadow: 2px 4px 6px -6px;margin-bottom: 0.5em;}
+.titulo-marca h1{font-size: 1.3em;font-weight: normal; color: #666; width: 100%;float: left;}
+.titulo-marca p{font-weight: bold;}
+.accordion {background-color: #eee;color: #444;cursor: pointer;padding: 18px;width: 100%;border: none;text-align: left;outline: none;font-size: 15px;transition: 0.4s;border-bottom: 2px solid #ddd;}
+.accordion .fa-chevron-right{float: right;}
+.accordion .fa-chevron-down{float: right;}
+.active, .accordion:hover {background-color: #ccc; }
+.panel {padding: 0 18px;display: none;background-color: white;overflow: hidden;border-bottom: 2px solid #ddd;padding: 1em 0 1em 1em;}
+.panel p a{color: #000;}
+/*------------------ TODOS PRODUTOS -----------------*/
+.todos-produtos{width: calc(50% - 5px);margin: 0 2.5px;float: left;}
+.price{text-align: right;}
+
+/*------------------- SINGLE PRODUTO --------------------*/
+.bx-desc-brands{width: 100%;float: left;padding: 2em 0 1em 0;}
+.desc-brands{ width: 60%;float: left;margin-right: 1%;}
+.brands-price{width: 38%;float: left;}
+.brands-price .price-strike{color: #666;}
+.desc-brands h1{font-size: 1.3em;font-weight: normal; color: #666; width: 100%;float: left;}
+.desc-brands p{font-weight: bold;}
+.open-car{width: 100%;float: left;}
+.bx-open-car{position: relative;width: 350px;margin: auto;padding: 1em 0 0 0;}
+.bx-open-car a{padding: 1em 4em;float: left;background: #000;text-align: center;color: #fff;font-size: 1.3em;}
